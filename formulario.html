@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>formulario de registro</title>
+        <link rel="stylesheet"href="formulario.css"></link>
+        <script src="validar.js"></script>
+    </head>
+    <body>
+        <h1>formulario</h1>
+        <form action="registrar.php"method="post" class="form-register"onsubmit="return validar();">
+        <h2 class="form__titulo">Llenar formulario</h2>
+        <div class="contenedor-inputs">
+            <input type="text"id="nombre"name="nombre"placeholder="nombre" class="input-48"required>
+            <input type="text"id="apellidos"name="apellidos"placeholder="apellido" class="input-48"required>
+            <input type="email"id="correo"name="correo"placeholder="correo" class="input-48"required>
+            <input type="text"id="usuario"name="usuario"placeholder="usuario" class="input-48"required>
+            <input type="password"id="clave"name="clave"placeholder="contraseña" class="input-48"required>
+            <input type="text"id="telefono"name="telefono"placeholder="telefono" class="input-48"required>
+            <input type="submit" value="registrar" class="btn-enviar">
+            <p class="forn__link">Ya tienes una cuenta? <a href="#">Ingresa aqui</a></p>
+        </div>
+            
+        </form>
+        <details> <summary><b>1</b> La tranquera</summary> <h2>Nombre del sujeto</h2> <img src="carne.jpg" alt="Foto del sujeto" />
+       <h2><b>1</b>La tranquera</h2> <img src="carne.jpg" alt="Foto del sujeto" />   
+       </details>
+        <details> <summary><b>1</b> La tranquera</summary> <h2>Nombre del sujeto</h2> <img src="carne.jpg" alt="Foto del sujeto" />
+       <h2><b>1</b>La tranquera</h2> <img src="carne.jpg" alt="Foto del sujeto" />   
+       </details>
+       
+
+        				
+      
+    </body>
+</html>
